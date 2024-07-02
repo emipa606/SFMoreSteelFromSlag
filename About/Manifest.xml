@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>SFMoreSteelFromSlag</identifier>
+  <version>1.5.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/SFMoreSteelFromSlag/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/SFMoreSteelFromSlag/releases</downloadUri>
+</Manifest>

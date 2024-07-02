@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSFS.Name>More Steel from Slag</MSFS.Name>
+  <MSFS.Reset>Reset</MSFS.Reset>
+  <MSFS.SteelAmount>Amount of Steel Obtained by Smelting Slag:</MSFS.SteelAmount>
+  <MSFS.SteelAmountNew>Amount of Steel Obtained by Smelting Slag: {0}</MSFS.SteelAmountNew>
+  <MSFS.SteelAmountTip>Vanilla value is 20. (Changes to this value will only take effect after the game is restarted.)</MSFS.SteelAmountTip>
+  <MSFS.SteelAmountTipNew>Vanilla value is 20</MSFS.SteelAmountTipNew>
+  <MSFS.WorkAmount>Amount of Work Required to Smelt Slag:</MSFS.WorkAmount>
+  <MSFS.WorkAmountNew>Amount of Work Required to Smelt Slag: {0}</MSFS.WorkAmountNew>
+  <MSFS.WorkAmountTip>Vanilla value is 27. (Changes to this value will only take effect after the game is restarted.)</MSFS.WorkAmountTip>
+  <MSFS.WorkAmountTipNew>Vanilla value is 27</MSFS.WorkAmountTipNew>
+  <MSFS.Component>Smelting Slag Also Yields a Component.</MSFS.Component>
+  <MSFS.CurrentModVersion>Installed mod-version: {0}</MSFS.CurrentModVersion>
+</LanguageData>
