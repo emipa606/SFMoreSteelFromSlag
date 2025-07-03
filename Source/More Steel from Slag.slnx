@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="More Steel from Slag/More Steel from Slag.csproj" />
+</Solution>

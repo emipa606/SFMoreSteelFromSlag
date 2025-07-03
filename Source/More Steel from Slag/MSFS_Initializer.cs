@@ -21,10 +21,10 @@ internal static class MSFS_Initializer
             return;
         }
 
-        recipeDef.workAmount = Controller.Settings.workAmount;
+        recipeDef.workAmount = Controller.Settings.WorkAmount;
         recipeDef.products.Clear();
-        recipeDef.products.Add(new ThingDefCountClass(thingDef, Controller.Settings.steelAmount));
-        if (Controller.Settings.component)
+        recipeDef.products.Add(new ThingDefCountClass(thingDef, Controller.Settings.SteelAmount));
+        if (Controller.Settings.Component)
         {
             recipeDef.products.Add(new ThingDefCountClass(ThingDefOf.ComponentIndustrial, 1));
         }

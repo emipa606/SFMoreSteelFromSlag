@@ -6,9 +6,9 @@ namespace MSFS_Code;
 
 public class Settings : ModSettings
 {
-    public bool component;
-    public int steelAmount = 20;
-    public int workAmount = 1600;
+    public bool Component;
+    public int SteelAmount = 20;
+    public int WorkAmount = 1600;
 
     public void DoWindowContents(Rect canvas)
     {
@@ -18,19 +18,19 @@ public class Settings : ModSettings
         };
         list.Begin(canvas);
         list.Gap();
-        steelAmount = (int)list.SliderLabeled("MSFS.SteelAmountNew".Translate(steelAmount), steelAmount, 10f, 300.99f,
+        SteelAmount = (int)list.SliderLabeled("MSFS.SteelAmountNew".Translate(SteelAmount), SteelAmount, 10f, 300.99f,
             tooltip: "MSFS.SteelAmountTipNew".Translate());
         list.Gap();
-        workAmount = (int)list.SliderLabeled("MSFS.WorkAmountNew".Translate(Math.Ceiling(workAmount / 60f)), workAmount,
+        WorkAmount = (int)list.SliderLabeled("MSFS.WorkAmountNew".Translate(Math.Ceiling(WorkAmount / 60f)), WorkAmount,
             575f, 2400f,
             tooltip: "MSFS.WorkAmountTipNew".Translate());
         list.Gap();
-        list.CheckboxLabeled("MSFS.Component".Translate(), ref component);
+        list.CheckboxLabeled("MSFS.Component".Translate(), ref Component);
         if (list.ButtonText("MSFS.Reset".Translate()))
         {
-            steelAmount = 20;
-            workAmount = 1600;
-            component = false;
+            SteelAmount = 20;
+            WorkAmount = 1600;
+            Component = false;
         }
 
         if (Controller.CurrentVersion != null)
@@ -47,8 +47,8 @@ public class Settings : ModSettings
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref steelAmount, "steelAmount", 20);
-        Scribe_Values.Look(ref workAmount, "workAmount", 1600);
-        Scribe_Values.Look(ref component, "component");
+        Scribe_Values.Look(ref SteelAmount, "steelAmount", 20);
+        Scribe_Values.Look(ref WorkAmount, "workAmount", 1600);
+        Scribe_Values.Look(ref Component, "component");
     }
 }

@@ -3,5 +3,12 @@
   "CanAdd": "0",
   "CanRemove": "0",
   "SocialImageSet": true,
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-03T21:38:39.7687679+02:00",
+  "Patches": false,
+  "Defs": false,
+  "Assemblies": true,
+  "LinesOfCode": 5026.0,
+  "LinesOfXML": 0,
+  "SearchTags": " resource"
 }
